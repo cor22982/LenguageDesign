@@ -42,7 +42,11 @@ def procesar_buffer(entrada, inicio, tamano_buffer):
 
     avance +=1
 
-entrada = list("Esto es un ejemplo eof")
-inicio = 0
-tamano_buffer = 10
-procesar_buffer(inicio=inicio, tamano_buffer=tamano_buffer, entrada=entrada)
+def exampleData():  
+  entrada = list("Esto es un ejemplo eof")
+  inicio = 0
+  tamano_buffer = 10
+  procesar_buffer(inicio=inicio, tamano_buffer=tamano_buffer, entrada=entrada)
+  
+if __name__ == "__main__":
+    exampleData()

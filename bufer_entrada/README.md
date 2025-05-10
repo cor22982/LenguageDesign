@@ -2,24 +2,26 @@
 
 Se simuló un pequeño buffer en Python utilizando centinelas "eof" para identificar el final de los datos. Se recorren los datos con los punteros "inicioLexema" y "avance" en un buffer de tamaño 10 caracteres, recargando los datos para el siguiente buffer y tomando en cuenta los ya leídos.
 
-## 🐍 Lenguaje
+## 🐍 Entorno
 
-- Python
-- Versión: 3.12.3
+- **Lenguaje:** Python
+- **Versión:** 3.12.3
 
 ## 📜 Instrucciones
 
 1. **Clonar el repositorio**:
 
-   ```bash
-   git clone https://github.com/JosueSay/LenguageDesign.git
-   ```
+   1.1 HTTPS:
 
-   o
-  
-   ```bash
-   git clone git@github.com:JosueSay/LenguageDesign.git
-   ```
+    ```bash
+    git clone https://github.com/JosueSay/LenguageDesign
+    ```
+
+   1.2 SSH:
+
+    ```bash
+    git clone git@github.com:JosueSay/LenguageDesign.git
+    ```
 
 2. **Navegar a la carpeta `bufer_entrada`**:
 
@@ -57,7 +59,7 @@ a otra cadena, como por ejemplo:
 entrada = list("Esto es otro ejemplo")
 ```
 
-## Multimedia 🎥
+## 🎥 Multimedia
 
 ### Demostración
 
